@@ -9,7 +9,7 @@ const ProductList = () => {
             <div className="pl-texts">
                 <h1 className="pl-title">🐻 Bear & Beers 🍻</h1>
                 <p className="pl-desc">
-                    Lama is a creative portfolio that your work has been waiting for.
+                    a creative portfolio that your work has been waiting for.
                     Beautiful homes, stunning portfolio styles & a whole lot more awaits
                     inside.
                 </p>
