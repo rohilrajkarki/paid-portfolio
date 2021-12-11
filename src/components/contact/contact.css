@@ -66,6 +66,7 @@ textarea{
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
+    border: none;
 }
 
 button{
@@ -74,7 +75,7 @@ button{
     background-color: rgb(36, 170, 36);
     color: white;
     font-weight: 500;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 
 
@@ -151,4 +152,10 @@ button:hover
 
 .msg-text{
     flex: 2;
+}
+
+@media screen and ( max-width: 480px ) {
+    .c-wrapper{
+        flex-direction: column;
+    }
 }
